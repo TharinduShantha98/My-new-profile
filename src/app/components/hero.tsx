@@ -96,7 +96,7 @@ export default function Home() {
 
   const academicProjects = [
     {
-      title: "Electronic Health Record System (EHR) - Backend",
+      title: "Electronic Health Record System (EHR) - Backend (On-going)",
       company: "Academic Project (Final project)",
       period: "MAR 2025 - Aug 2025",
       description: "This project Developing ",
@@ -111,18 +111,31 @@ export default function Home() {
       link: "https://github.com/TharinduShantha98/EHR_System" // Example GitHub link
     },
     {
-      title: "University Management System",
-      company: "Academic Project",
-      period: "Jan 2022 - June 2022",
+      title: "Electronic Health Record System (EHR) - FrontEnd (On-going)",
+      company: "Developed EHR system to centelized patient data ",
+      period: "MAR 2025 - Aug 2025",
       description: "Developed a comprehensive university management system as part of diploma coursework.",
-      technologies: ["Java", "Spring Boot", "MySQL", "React"],
+      technologies: ["Next.js","HTML","JavaScript"],
       highlights: [
-        "Student registration system",
-        "Course management module",
-        "Grade tracking system",
-        "Faculty dashboard"
+        "Patient registration",
+        "Patient Login",
+        "Patient DashBord",
+        "Appointment  Flow",
+        "Faculty dashboard",
+        "Patient registration system"
       ],
-      link: "https://github.com/yourusername/university-management" // Example GitHub link
+      link: "https://github.com/TharinduShantha98/EHR_System_FrontEnd" // Example GitHub link
+    },
+     {
+      title: "Pneumonia detection machine learning model traning ",
+      company: "Academic Project",
+      period: "MAR 2025 - Aug 2025",
+      description: "developed a machine learning model to detect pneumonia using a dataset of chest X-ray images.",
+      technologies: ["Python","Kaggle","Tensorflow","Restnet50"],
+      highlights: [
+        "Identintifed pneumonia",
+      ],
+      link: "" // Example GitHub link
     }
   ];
 
@@ -162,31 +175,29 @@ export default function Home() {
 
   const achievements = [
   {
-    title: "AWS Certified Developer - Associate",
-    issuer: "Amazon Web Services",
-    date: "June 2023",
-    description: "Demonstrated ability to develop and maintain applications on AWS",
-    image: "https://learn.ibm.com/files/analytics/DAELL/DAELL-Badge-Program/cloud_pak_for_data/IBM_20Cloud_20Pak_20for_20Data_205_200_20Administration.png", // Replace with your actual image path
-    link: "https://www.credly.com/badges/...",
-    skills: ["AWS", "Cloud Computing", "Serverless Architecture"]
+    title: "Containers and Kebernetes Essentials",
+    issuer: "IBM",
+    date: "Mar 2025",
+    description: "This badge earner is able to build and run a container image and understands Kubernetes architecture",
+    link: "https://www.credly.com/badges/c7479f35-69ab-4fd2-a66c-312b4d556665/linked_in_profile",
+    skills: ["Kebernetes", "Cloud", "IBM Cloud","Container"]
   },
   {
-    title: "Google Cloud Professional Data Engineer",
-    issuer: "Google Cloud",
-    date: "March 2023",
-    description: "Certified in designing and building data processing systems on GCP",
-    image: "/gcp-data-engineer-badge.png",
-    link: "https://www.credential.net/...",
-    skills: ["Data Engineering", "BigQuery", "Cloud Dataflow"]
+    title: "Introduction to Containers, Kubernetes, and OpenShift V2",
+    issuer: "Cognitive Class",
+    date: "Mar 2025",
+    description: "This course introduces the core concepts of Containers and Kubernetes and explains how containers differ from virtual machines. It also covers the importance of containers in cloud computing as well as the emerging ecosystem of related technologies such as Docker, Kubernetes, OpenShift, Istio and Knative.",
+    link: "https://courses.cognitiveclass.ai/certificates/a83b3d470ffd4a6cb81b858ba7644f52",
+    skills: ["Kebernetes", "Docker", "OpenShift","Istio","Knative"]
   },
   {
-    title: "Hackathon Winner - TechInnovate 2022",
-    issuer: "Tech Community SL",
-    date: "November 2022",
-    description: "Won first place in the annual innovation hackathon with a healthcare solution",
+    title: "Oracle Cloud Infrastructure 2024 Certified Foundations Associate",
+    issuer: "Oracle",
+    date: "Feb 2025",
+    description: "The Oracle Cloud Infrastructure (OCI) Foundations certification is for individuals who intend to demonstrate fundamental knowledge of public cloud services provided by Oracle Cloud Infrastructure (OCI).",
     image: "/hackathon-winner-badge.png",
-    link: "https://example.com/hackathon",
-    skills: ["React", "Node.js", "Machine Learning"]
+    link: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=D0640BE242B2ACA8C82AA08E41D1016586906139CE1BF491951CCFA47C92E432",
+    skills: ["OCI", "Identity and Access Management (IAM)", "Networking", "Compute", "Storage"] 
   }
   ];
 
@@ -731,6 +742,14 @@ export default function Home() {
                                   <span className="mr-1">•</span>
                                   <span>Data Structures And Algorithms</span>
                                 </li>
+                                 <li className="flex items-start">
+                                  <span className="mr-1">•</span>
+                                  <span>Learning Machines And Intelligent Agents</span>
+                                </li>
+                                 <li className="flex items-start">
+                                  <span className="mr-1">•</span>
+                                  <span>Advance Mobile Systems</span>
+                                </li>
                               </ul>
                             </div>
                             <div className="bg-gray-700/50 p-3 md:p-4 rounded-lg">
@@ -752,11 +771,19 @@ export default function Home() {
                                 </li>
                                 <li className="flex items-start">
                                   <span className="mr-1">•</span>
-                                  <span>Web Application Development</span>
+                                  <span>Programming Fundamentals</span>
                                 </li>
                                 <li className="flex items-start">
                                   <span className="mr-1">•</span>
                                   <span>Database Management Systems</span>
+                                </li>
+                                <li className="flex items-start">
+                                  <span className="mr-1">•</span>
+                                  <span>Software Development with CASE tools</span>
+                                </li>
+                                 <li className="flex items-start">
+                                  <span className="mr-1">•</span>
+                                  <span>Advanced API Development with Spring Web MVC</span>
                                 </li>
                               </ul>
                             </div>
@@ -768,6 +795,22 @@ export default function Home() {
                                   <span>Enterprise Application Development</span>
                                 </li>
                                 <li className="flex items-start">
+                                  <span className="mr-1">•</span>
+                                  <span>Machine Learning</span>
+                                </li>
+                                 <li className="flex items-start">
+                                  <span className="mr-1">•</span>
+                                  <span>Cloud Computing</span>
+                                </li>
+                                 <li className="flex items-start">
+                                  <span className="mr-1">•</span>
+                                  <span>Service Oriented Architecture (SOA)</span>
+                                </li>
+                                 <li className="flex items-start">
+                                  <span className="mr-1">•</span>
+                                  <span>Micro-Service Architecture</span>
+                                </li>
+                                 <li className="flex items-start">
                                   <span className="mr-1">•</span>
                                   <span>Mobile Application Development</span>
                                 </li>
