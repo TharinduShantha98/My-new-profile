@@ -47,7 +47,7 @@ export default function Home() {
         "Containerized application using Docker for scalability",
         "Designed and developed REST APIs for system integration"
       ],
-      link: "https://ticketsog.com" // Example link
+      link: "https://ticketsog.com"
     },
     {
       title: "Internet & Mobile Banking Application",
@@ -62,7 +62,7 @@ export default function Home() {
         "Optimized database queries for performance",
         "Collaborated with third-party vendors"
       ],
-      link: "https://unionbank.com" // Example link
+      link: "https://www.ubdirect.com/" 
     },
     {
       title: "NDB Internet Banking Mobile Application",
@@ -76,7 +76,7 @@ export default function Home() {
         "Created LPOPP (Loan Payment Order Processing Platform)",
         "Designed robust database architecture"
       ],
-      link: "https://ndbbank.com" // Example link
+      link: "https://www.neosonline.ndbbank.com/#/login" // Example link
     },
     {
       title: "First Capital Investment Online Banking",
@@ -90,7 +90,7 @@ export default function Home() {
         "Created transaction history modules",
         "Designed and developed REST APIs"
       ],
-      link: "https://github.com/yourusername/first-capital-project" // Example GitHub link
+      link: "https://portal.firstcapital.lk/#/" // Example GitHub link
     },
   ];
 
