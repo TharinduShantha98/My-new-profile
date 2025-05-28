@@ -73,7 +73,7 @@ export default function Home() {
       highlights: [
         "Implemented CRIB Integration for credit scoring",
         "Developed Just Pay payment system",
-        "Created LPOPP (Loan Payment Order Processing Platform)",
+        "Created LPOPP",
         "Designed robust database architecture"
       ],
       link: "https://www.neosonline.ndbbank.com/#/login" // Example link
