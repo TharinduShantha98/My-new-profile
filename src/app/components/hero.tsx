@@ -96,6 +96,32 @@ export default function Home() {
 
   const academicProjects = [
     {
+      title: "Spring-boot-tech-lab",
+      company: "Academic Project (Final Project)",
+      period: "APR 2025",
+      description: "This repository is my personal Spring Boot tech lab where I explore and implement various advanced technologies and backend concepts. It includes implementations such as ShedLock for distributed locking, gRPC Unary calls with GZIP compression, and dynamic bean registration. I plan to continuously enhance this project by adding more features, tools, and modern Spring Boot practices.",
+      technologies: [
+        "Java",
+        "Spring Boot",
+        "MySQL",
+        "Kafka",
+        "Docker",
+        "gRPC",
+        "ShedLock",
+        "Dynamic Bean Registration"
+      ],
+      highlights: [
+        "Implemented distributed locking using ShedLock to prevent concurrent task execution",
+        "Integrated gRPC Unary APIs",
+        "GZIP compression for optimized performance",
+        "Created and injected dynamic Spring beans at runtime",
+        "Configured Docker for containerized deployment",
+        "Planned to add real-time messaging and caching with Redis",
+        "plane to add gRPC communation (server streaming, client streaming, bidirectional ) "
+      ],
+      link: "https://github.com/TharinduShantha98/spring-boot-tech-lab"
+    },
+    {
       title: "Electronic Health Record System (EHR) - Backend (On-going)",
       company: "Academic Project (Final project)",
       period: "MAR 2025 - Aug 2025",
